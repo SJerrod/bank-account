@@ -15,20 +15,31 @@
     <p>Your coin is always welcome, your complaints are not!</p>
   </div>
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h5>Create your account</h5>
-        <input id="name" class="form-control" type="text" name="name" placeholder="Add name here">
-        <input id="initial" class="form-control" type="number" name="initial" placeholder="Initial Deposit amount">
+    <form class="change">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Create your account</h5>
+          <label for="name">Enter your Name:
+            <input id="name" class="form-control" type="text" name="name" placeholder="Add name here">
+          </label>
+          <label for="initial">Initial deposit amount:
+            <input id="initial" class="form-control" type="number" name="initial" placeholder="Initial Deposit amount">
+          </label>
+        </div>
+        <div class="col-md-6">
+          <h5>Deposit and Withdrawls</h5>
+          <label for="deposit">Deposit amount:
+            <input id="deposit" class="form-control" type="number" name="deposit" placeholder="Amount to Deposit">
+          </label>
+          <label for="withdraw">Withdraw amount:
+            <input id="withdraw" class="form-control" type="number" name="withdraw" placeholder="Amount to Withdraw">
+          </label>
+          <input id="changeSubmit" class="btn btn-success" type="submit">
+        </div>
       </div>
-      <div class="col-md-6">
-        <h5>Deposit and Withdrawls</h5>
-        <input id="deposit" class="form-control" type="number" name="deposit" placeholder="Amount to Deposit">
-        <input id="withdraw" class="form-control" type="number" name="withdraw" placeholder="Amount to Withdraw">
-      </div>
-    </div>
+    </form>
     <div class="container">
-      <h4>Current Balance:<span class="balance"></span></h4>
+      <h4>Current Balance: <span class="balance"></span></h4>
     </div>
   </div>
 </body>
