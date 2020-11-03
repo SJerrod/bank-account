@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Bank Account</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <h3>Big Money Bank</h3>
+    <p>Your coin is always welcome, your complaints are not!</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Create your account</h5>
+        <input id="name" class="form-control" type="text" name="name" placeholder="Add name here">
+        <input id="initial" class="form-control" type="number" name="initial" placeholder="Initial Deposit amount">
+      </div>
+      <div class="col-md-6">
+        <h5>Deposit and Withdrawls</h5>
+        <input id="deposit" class="form-control" type="number" name="deposit" placeholder="Amount to Deposit">
+        <input id="withdraw" class="form-control" type="number" name="withdraw" placeholder="Amount to Withdraw">
+      </div>
+    </div>
+    <div class="container">
+      <h4>Current Balance:<span class="balance"></span></h4>
+    </div>
+  </div>
+</body>
+</html>
