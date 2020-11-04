@@ -42,7 +42,10 @@ $(document).ready(function() {
     let newAccount = new Account(name, depositInitial);
     
     newAccount.initialPush();
-    $(".balance").text(newAccount.total)
+    $(".userName").text(newAccount.name);
+    $(".balance").text("$" + newAccount.total + ".00");
+    $("#initialSubmit").hide();
+    $(".container-1").show();
     $(".change").submit(function(event) {
       event.preventDefault();
       
@@ -55,7 +58,7 @@ $(document).ready(function() {
       $("input#deposit").val("");
       $("input#withdraw").val("");
       
-      $(".balance").text(newAccount.total); 
+      $(".balance").text("$" + newAccount.total + ".00"); 
     });
   });
 });

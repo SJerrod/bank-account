@@ -1,0 +1,50 @@
+body {
+  background: rgb(142,179,117);
+  background: radial-gradient(circle, rgba(142,179,117,1) 0%, rgba(218,255,19,0.9668242296918768) 26%, rgba(26,157,54,1) 100%);
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+h5 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.container-1 {
+  text-align: center;
+  display: none;
+  margin-top: 20px;
+  float: right;
+}
+
+.container-2 {
+  margin-top: 10px;
+}
+
+iframe {
+  border-radius: 20%;
+}
+
+.col-md-6 {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.balance {
+  background-color: white;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.bling {
+  color: gold;
+  font-size: 20px;
+}
+
+.btn {
+  border: 2px dotted gold;
+}
