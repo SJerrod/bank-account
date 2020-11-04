@@ -8,7 +8,7 @@
 
 ## Setup
 
-- [Click to view Github repository](-link) Or simply paste the following url into your prefered browser -link
+- [Click to view Github repository](https://github.com/SJerrod/bank-account) Or simply paste the following url into your prefered browser https://github.com/SJerrod/bank-account
 - To Clone repository simply click the green Code button and copy the url
 - Using a prefered terminal type command 'git clone paste-url-here
 - Alternetivly click the Set up in Desktop button
